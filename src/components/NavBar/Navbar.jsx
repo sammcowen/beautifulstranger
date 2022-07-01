@@ -1,4 +1,5 @@
 import React from 'react';
+import './Navbar.css'
 
 const Navbar = () => {
     return (
@@ -9,7 +10,7 @@ const Navbar = () => {
 </div>
 <div className="n-right">
     <div className="n-list">
-        <ul>
+        <ul style={{listStyleType:'none'}}>
             <li>Home</li>
             <li>About Me</li>
             <li>My Work</li>
