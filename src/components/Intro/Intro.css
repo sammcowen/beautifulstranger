@@ -34,6 +34,13 @@
     transform: scale(0.87);
     left: 5%;
 }
+.i-right>:nth-child(4) {
+    transform: scale(0.6);
+    top: -10%;
+    left:-24%;
+    border-radius: 50%;
+    padding:0;
+}
 .i-name {
     display: flex;
     flex-direction: column;
@@ -71,4 +78,16 @@
 }
 .i-icons>*:hover {
     cursor:pointer;
+}
+.blur {
+    position: absolute;
+    border-radius: 50%;
+    width:22rem;
+    height: 14rem;
+    background: #edd0ff;
+    filter:blur(72px);
+    z-index: -9;
+    top:-18%;
+    left:56%;
+
 }
