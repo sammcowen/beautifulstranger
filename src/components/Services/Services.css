@@ -1,0 +1,35 @@
+.services {
+    padding: 0 3rem 0 3rem;
+    display:flex;
+    height: 90vh;
+    margin-bottom:  8rem ;
+    margin-top: 9 rem;
+    margin-bottom: 13rem;
+}
+
+.amazing {
+    display: flex;
+    flex-direction: column;
+    position:relative;
+}
+.amazing>:nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+.amazing>:nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+.amazing>:nth-child(3) {
+    color: var(--gray);
+    font-size: 20px;
+    font-weight:100;
+    margin-top:1rem;
+}
+s.button {
+    width:8rem;
+    height:2rem;
+    margin-top: 1rem;
+}
