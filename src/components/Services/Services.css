@@ -22,14 +22,22 @@
     font-size: 2.5rem;
     font-weight:bold;
 }
-.amazing>:nth-child(3) {
+.amazing > :nth-child(3) {
     color: var(--gray);
     font-size: 20px;
-    font-weight:100;
+    font-weight:100; 
     margin-top:1rem;
 }
-s.button {
+.s-button {
     width:8rem;
     height:2rem;
     margin-top: 1rem;
+}
+
+.cards {
+    position:relative;
+}
+
+.cards > * {
+    position: absolute;
 }
