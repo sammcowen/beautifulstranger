@@ -17,7 +17,7 @@ const Services = () => {
                  ipsum quas quae tenetur eos aliquam dolor id a</span>
                  <a href={Resume} download>
                     <button className='button s-button'>Download CV</button></a>
-                    <div className="blur s-blur1" style={{ background:'#ABF1FF94'}}></div>
+                    <div className="blur s-blur1" style={{ background:'var(--blueCard)'}}></div>
 
             </div>
             {/* right side */}
@@ -37,6 +37,7 @@ const Services = () => {
                  detail = {
                     'lorem ipsum dummy text are usually use in section bla bla '
                  }/></div>
+                 <div className="blur s-blur2" style ={{background:"var()--purple"}}></div>
             </div>
         </div>
     )
