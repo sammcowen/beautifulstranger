@@ -19,20 +19,33 @@ const Works = () => {
                  
                     <button className='button s-button'>Hire Me</button>
                     <div className="blur s-blur1" style={{ background:'var(--blueCard)'}}></div>
+                    </div>
                 {/* right side  */}
                 <div className="w-right">
                     <div className="w-mainCircle">
                         <div className="w-secCircle">
-                            <img src={} alt="" />
+                            <img src={Mongo1} alt="" />
                         </div>
                         <div className="w-secCircle">
-                            <img src={} alt="" />
+                            <img src={Node} alt="" />
+                        </div>
+                        <div className="w-secCircle">
+                            <img src={Sql1} alt="" />
+                        </div>{' '}
+                        <div className="w-secCircle">
+                            <img src={Basic} alt="" />
+                        </div>
+                        <div className="w-secCircle">
+                            <img src={React1} alt="" />
                         </div>
                     </div>
+                    {/* background circles */}
+                    <div className="w-backCircle blueCircle"></div>
+                    <div className="w-backCircle yellowCircle"></div>
                 </div>
 
             </div>
-</div>
+
     )
 }
 export default Works; 

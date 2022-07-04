@@ -4,3 +4,45 @@
     padding: 0 3rem 0 3rem;
     margin-top: 4rem;
 }
+.w-secCircle>img {
+    transform:scale(0.5);
+}
+/* right side */
+.w-right {
+    position: relative;
+
+}
+.w-mainCircle {
+    position: relative;
+    height:18rem;
+    width:18rem;
+    left:9rem;
+    border-radius:100%;
+    box-shadow: var(--smboxShadow);
+    top:2rem;
+    background:white;
+}
+.w-mainCircle>* {
+    position:absolute;
+}
+.w-mainCircle >:nth-child(1) {
+    top: -3rem;
+    left: 6rem;
+}
+.w-mainCircle >:nth-child(2) {
+    left:-3rem;
+    top:5rem;
+}
+.w-mainCircle >:nth-child(3) {
+    left: 6rem;
+    top: 5rem;
+}
+.w-mainCircle >:nth-child(4) {
+    left: 15rem;
+    top:5rem;
+
+}
+.w-mainCircle > :nth-child(5) {
+    left: 6rem;
+    top:13rem;
+}
